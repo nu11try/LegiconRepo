@@ -1,0 +1,90 @@
+.slider_section {
+	.slider {
+
+		.el_slider {
+			position: relative;
+
+			.mask {
+				width: 100%;
+				height: 100%;
+				background: rgba(41, 51, 50, 0.5);
+				position: absolute;
+			}
+
+			img {
+				background: url("../img/image.png");
+				width: 100%;
+			}
+
+			.slide_text {
+				position: absolute;
+				font-weight: 600;
+				line-height: 64px;
+				font-size: 56px;
+				letter-spacing: -0.02em;
+				color: #FFFFFF;
+				width: 100%;
+				top: 50%;
+				margin-top: -64px;
+				text-align: center;
+			}
+		}
+		
+	}
+
+	.bx-wrapper {
+		border: none;
+		
+		.bx-controls-direction a {
+			width: 50px;
+			height: 50px;
+			margin-top: -25px;
+		}
+
+		.bx-prev {
+			background: url("../images/arrow.png") no-repeat;
+			opacity: 0.7;
+			-webkit-transform: rotate(180deg);
+			    -ms-transform: rotate(180deg);
+			        transform: rotate(180deg);
+		}
+
+		.bx-next {
+			background: url("../images/arrow.png") no-repeat;
+			opacity: 0.7;
+		}
+
+		.bx-next:hover,
+		.bx-next:focus {
+			background-position: 0 0;
+			opacity: 1;
+		}
+
+		.bx-prev:hover,
+		.bx-prev:focus {
+			background-position: 0 0;
+			opacity: 1;
+		}
+
+		.bx-pager.bx-default-pager a:hover {
+			background: $color-red;
+		}
+
+		.bx-pager, .bx-wrapper .bx-controls-auto {
+			bottom: 60px;
+		}
+
+		.bx-pager.bx-default-pager a {
+		 	border-radius: 50%;
+		    width: 8px; height: 8px;
+		    background: white;
+		    margin: 0 8px;
+		}
+
+		.bx-pager.bx-default-pager a.active {
+		    background: $color-red;
+		}
+
+	}
+
+}

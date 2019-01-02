@@ -7,6 +7,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>LEGICON</title>
 	<link rel="stylesheet" type="text/css" href="sass/style.css">
+	<!-- Slider links -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ 	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+ 	<!-- Slider - init -->
+	<script>
+		$(function(){
+		  $('.slider').bxSlider({
+		    auto: true,
+		    speed: 500
+		  });
+		});
+	</script>
+	<!-- Slider - end -->
 </head>
 <body>
 	<header>
@@ -38,6 +52,40 @@
 			</div>
 		</div>
 	</header>
+	<section class="slider_section">
+		<div class="slider">
+			<div class="el_slider">
+				<div class="slide_text"></div>
+				<div class="mask"></div>
+				<img src="images/image.png">
+			</div>
+			<div class="el_slider">
+				<div class="slide_text"></div>
+				<div class="mask"></div>
+				<img src="images/image.png">
+			</div>
+			<div class="el_slider">
+				<div class="slide_text"></div>
+				<div class="mask"></div>
+				<img src="images/image.png">
+			</div>
+			<div class="el_slider">
+				<div class="slide_text"></div>
+				<div class="mask"></div>
+				<img src="images/image.png">
+			</div>
+			<div class="el_slider">
+				<div class="slide_text"></div>
+				<div class="mask"></div>
+				<img src="images/image.png">
+			</div>
+			<div class="el_slider">
+				<div class="slide_text"></div>
+				<div class="mask"></div>
+				<img src="images/image.png">
+			</div>
+		</div>
+	</section>
 	<div class="partners">
 		<span>Наши парнеры</span>
 		<div class="partners_element">
