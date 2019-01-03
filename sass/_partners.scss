@@ -1,15 +1,76 @@
 .partners {
-    background: #F4F4F4 50%;
+    background: rgb(244, 244, 244, 0.2);
     width: 100%;
-    height: 150px;
-    border: solid 1px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    // border: solid 1px;
 
     span {
-        border: solid 1px;
+        // border: solid 1px;
         width: 100%;
         display: inline-block;
         text-align: center;
-        margin-top: 50px;
-        
+        margin: 30px auto;
+        font-size: 25px;
+        //font-weight: bold;
+    }
+
+    &_element {
+        width: 363px;
+        height: auto;
+        border: solid 1px;
+        background: #fff;
+        margin: 0 25px 25px 0;
+        position: relative;
+
+        .element_hover {
+            display: none;
+            //display: flex;
+            position: absolute;
+            background: rgb(41, 51, 50, 0.3);
+            left:0;
+            right:0;
+            top:0;
+            bottom:0;
+            z-index: 10;
+            span {
+                margin: auto;
+                a {
+                    color: rgb(255,255,255, 1);
+                    text-align: center;
+                    font-weight: bold;
+                    
+                }
+            }
+        }
+
+        .element_image {
+            background: url("https://theins.ru/wp-content/uploads/2018/08/171775.jpg") no-repeat;
+            background-size: contain;
+            width: 363px;
+            height: 250px;
+        }
+
+        .element_more {
+            padding: 25px;
+            .element_name {
+                font-weight: bold;
+                text-align: center;
+            }
+
+            .name_line_text {
+                border: rgb(229, 229, 229); 
+                color: rgb(229, 229, 229);
+                background: rgb(229, 229, 229);
+                height: 1px;
+                margin: 25px auto;
+            }
+
+            .element_text {
+                text-align: justify;
+            }
+        }
     }
 }
