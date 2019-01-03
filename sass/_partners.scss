@@ -1,5 +1,5 @@
 .partners {
-    background: rgb(244, 244, 244, 0.2);
+    background: rgb(244, 244, 244, 0.5);
     width: 100%;
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -20,7 +20,7 @@
     &_element {
         width: 363px;
         height: auto;
-        border: solid 1px;
+        border: solid 1px rgb(229, 229, 229); 
         background: #fff;
         margin: 0 25px 25px 0;
         position: relative;

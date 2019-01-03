@@ -177,7 +177,7 @@ header .box .header-bottom nav ul li a.active {
 }
 
 .partners {
-  background: rgba(244, 244, 244, 0.2);
+  background: rgba(244, 244, 244, 0.5);
   width: 100%;
   font-family: "Roboto", sans-serif;
   display: flex;
@@ -194,7 +194,7 @@ header .box .header-bottom nav ul li a.active {
 .partners_element {
   width: 363px;
   height: auto;
-  border: solid 1px;
+  border: solid 1px #e5e5e5;
   background: #fff;
   margin: 0 25px 25px 0;
   position: relative;
@@ -239,6 +239,52 @@ header .box .header-bottom nav ul li a.active {
 }
 .partners_element .element_more .element_text {
   text-align: justify;
+}
+
+.mini_info_company {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+}
+.mini_info_company .head_mini_info {
+  font-weight: bold;
+  font-size: 25px;
+}
+.mini_info_company .text_mini_info {
+  font-size: 15px;
+}
+.mini_info_company .image_mini_info {
+  width: 65px;
+  height: 65px;
+}
+.mini_info_company .mini_info_more {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+.mini_info_company .calendar, .mini_info_company .hands, .mini_info_company .projects {
+  display: flex;
+  margin-bottom: 60px;
+}
+.mini_info_company .calendar, .mini_info_company .hands {
+  margin-right: 100px;
+}
+.mini_info_company .calendar .image_mini_info {
+  display: inline-block;
+  background: url("../images/svg/calendar.svg") no-repeat;
+  background-size: contain;
+}
+.mini_info_company .hands .image_mini_info {
+  background: url("../images/svg/hands.svg") no-repeat;
+  background-size: contain;
+}
+.mini_info_company .projects .image_mini_info {
+  background: url("../images/svg/mashine.svg") no-repeat;
+  background-size: contain;
 }
 
 /*# sourceMappingURL=style.css.map */

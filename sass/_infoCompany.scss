@@ -1,0 +1,59 @@
+.mini_info_company {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+
+    .head_mini_info {
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .text_mini_info {
+        font-size: 15px;
+    }
+    
+    .image_mini_info {
+        width: 65px;
+        height: 65px;
+    }
+
+    .mini_info_more {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10px;
+    }
+
+    .calendar, .hands, .projects{
+        display: flex;
+        margin-bottom: 60px;
+    }
+    .calendar, .hands {
+        margin-right: 100px;
+    }
+
+    .calendar {
+        .image_mini_info {
+            display: inline-block;
+            background: url("../images/svg/calendar.svg") no-repeat;
+            background-size: contain;
+        }
+    }
+
+    .hands {
+        .image_mini_info {
+            background: url("../images/svg/hands.svg") no-repeat;
+            background-size: contain;
+        }
+    }
+
+    .projects {
+        .image_mini_info {
+            background: url("../images/svg/mashine.svg") no-repeat;
+            background-size: contain;
+        }
+    }
+}
