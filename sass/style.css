@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 * {
   margin: 0;
   padding: 0;
@@ -199,6 +201,9 @@ header .box .header-bottom nav ul li a.active {
   margin: 0 25px 25px 0;
   position: relative;
 }
+.partners_element:last-child {
+  margin: 0 0 25px 0;
+}
 .partners_element .element_hover {
   display: none;
   position: absolute;
@@ -285,6 +290,58 @@ header .box .header-bottom nav ul li a.active {
 .mini_info_company .projects .image_mini_info {
   background: url("../images/svg/mashine.svg") no-repeat;
   background-size: contain;
+}
+
+.full_info {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 50px;
+  font-family: "Roboto", sans-serif;
+}
+.full_info .first_block, .full_info .two_block, .full_info .three_block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  align-items: center;
+}
+.full_info .first_block .image_full_info, .full_info .two_block .image_full_info, .full_info .three_block .image_full_info {
+  background: url("../images/svg/image.svg") no-repeat;
+  background-size: contain;
+  width: 650px;
+  height: 400px;
+  flex: 2;
+}
+.full_info .first_block .spase_beetwen, .full_info .two_block .spase_beetwen, .full_info .three_block .spase_beetwen {
+  flex: 0.25;
+}
+.full_info .first_block .text_full_info, .full_info .two_block .text_full_info, .full_info .three_block .text_full_info {
+  flex: 2;
+}
+.full_info .first_block .text_full_info b, .full_info .two_block .text_full_info b, .full_info .three_block .text_full_info b {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 32px;
+  font-size: 24px;
+  color: #293332;
+}
+.full_info .first_block .text_full_info .top_text, .full_info .two_block .text_full_info .top_text, .full_info .three_block .text_full_info .top_text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 25px;
+  font-size: 15px;
+  color: #293332;
+  opacity: 1;
+}
+.full_info .first_block .text_full_info .bottom_text, .full_info .two_block .text_full_info .bottom_text, .full_info .three_block .text_full_info .bottom_text {
+  font-style: normal;
+  font-weight: normal;
+  line-height: 20px;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  color: #293332;
+  opacity: 0.75;
 }
 
 /*# sourceMappingURL=style.css.map */
