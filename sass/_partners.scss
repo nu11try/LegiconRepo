@@ -1,5 +1,5 @@
 .partners {
-    background: rgb(244, 244, 244, 0.5);
+    background: rgba(244, 244, 244, 0.5);
     width: 100%;
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -20,7 +20,7 @@
     &_element {
         width: 363px;
         height: auto;
-        border: solid 1px rgb(229, 229, 229); 
+        border: solid 1px rgb(229,229,229);
         background: #fff;
         margin: 0 25px 25px 0;
         position: relative;
@@ -33,7 +33,7 @@
             display: none;
             //display: flex;
             position: absolute;
-            background: rgb(41, 51, 50, 0.3);
+            background: rgba(41, 51, 50, 0.3);
             left:0;
             right:0;
             top:0;
@@ -42,7 +42,7 @@
             span {
                 margin: auto;
                 a {
-                    color: rgb(255,255,255, 1);
+                    color: rgba(255,255,255, 1);
                     text-align: center;
                     font-weight: bold;
                     
