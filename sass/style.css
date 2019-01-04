@@ -289,4 +289,45 @@ header {
         color: #293332;
         opacity: 0.75; }
 
+footer {
+  background: #293332;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: white; }
+  footer .footer_top {
+    height: 120px; }
+    footer .footer_top .box {
+      border-bottom: solid 1px rgba(255, 255, 255, 0.2); }
+      footer .footer_top .box nav ul {
+        display: flex;
+        justify-content: space-between; }
+        footer .footer_top .box nav ul hr {
+          width: 1px;
+          height: 16px;
+          outline: none;
+          border: none;
+          background: white;
+          opacity: 0.2;
+          margin-top: 51px; }
+        footer .footer_top .box nav ul li {
+          line-height: 120px; }
+          footer .footer_top .box nav ul li a {
+            color: white; }
+  footer .footer_bottom {
+    height: 100px; }
+    footer .footer_bottom .box .els-fb {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      font-size: 14px; }
+      footer .footer_bottom .box .els-fb .el {
+        line-height: 100px; }
+        footer .footer_bottom .box .els-fb .el a {
+          color: white; }
+      footer .footer_bottom .box .els-fb .el:nth-child(2) {
+        font-size: 18px; }
+
 /*# sourceMappingURL=style.css.map */
