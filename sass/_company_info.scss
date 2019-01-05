@@ -1,0 +1,32 @@
+.company_info {
+    margin: 100px;
+    font-family: 'Roboto', sans-serif;
+    color: #293332;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    p {
+        // border: solid 1px;
+        width: 70%;
+        text-align: justify;
+        opacity: 0.75;
+    }
+
+    .btn_download {
+        margin-top: 25px;
+        width: 160px;
+        height: 36px;
+        background: #FFFFFF;
+        border: 2px solid #B41416;
+        text-align: center;
+        line-height: 36px;
+        cursor: pointer;
+        color: #293332;
+
+        &:hover {
+            color: white;
+            background: #B41416;
+        }
+    }
+}

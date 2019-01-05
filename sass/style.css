@@ -343,6 +343,7 @@ header .box .header-bottom nav ul li a.active {
   font-size: 15px;
   color: #293332;
   opacity: 1;
+  text-align: justify;
 }
 .full_info .first_block .text_full_info .bottom_text, .full_info .two_block .text_full_info .bottom_text, .full_info .three_block .text_full_info .bottom_text {
   font-style: normal;
@@ -352,6 +353,7 @@ header .box .header-bottom nav ul li a.active {
   letter-spacing: 0.01em;
   color: #293332;
   opacity: 0.75;
+  text-align: justify;
 }
 
 footer {
@@ -405,6 +407,35 @@ footer .footer_bottom .box .els-fb .el a {
 }
 footer .footer_bottom .box .els-fb .el:nth-child(2) {
   font-size: 18px;
+}
+
+.company_info {
+  margin: 100px;
+  font-family: "Roboto", sans-serif;
+  color: #293332;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.company_info p {
+  width: 70%;
+  text-align: justify;
+  opacity: 0.75;
+}
+.company_info .btn_download {
+  margin-top: 25px;
+  width: 160px;
+  height: 36px;
+  background: #FFFFFF;
+  border: 2px solid #B41416;
+  text-align: center;
+  line-height: 36px;
+  cursor: pointer;
+  color: #293332;
+}
+.company_info .btn_download:hover {
+  color: white;
+  background: #B41416;
 }
 
 /*# sourceMappingURL=style.css.map */
