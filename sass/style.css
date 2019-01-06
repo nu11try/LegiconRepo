@@ -551,4 +551,34 @@ footer .footer_bottom .box .els-fb .el:nth-child(2) {
   text-align: justify;
 }
 
+.title_company {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  margin-top: 55px;
+  color: #293332;
+}
+
+.company {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 700px;
+  margin: 25px auto 60px;
+  color: #293332;
+}
+.company .company_text {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
+.company .company_text .text_top span a {
+  display: inline;
+}
+.company .company_text .text_top span a:hover {
+  color: #B41416;
+}
+
 /*# sourceMappingURL=style.css.map */
