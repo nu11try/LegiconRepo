@@ -1,0 +1,85 @@
+.career {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    padding: 30px 50px;
+    width: 850px;
+    margin: auto;
+
+    ul {
+        //list-style: disc;
+        li {
+            &:before {
+                color: #d7002e; /* Цвет маркера */
+                
+                content: "●"; /* Маркер */
+            }
+        }
+    }
+
+    .career_header {
+        display: block;
+        font-weight: 500;
+        font-size: 20px;
+        margin: auto auto 20px;
+        text-align: center;
+    }
+
+    #open_expectations {
+        display: none;
+    }
+
+    .expectations_profile {
+        cursor: pointer;
+
+        &:hover {
+            color: #d7002e;
+        }
+    }
+
+    .expectations_name {
+        font-weight: 500;
+    }
+
+    .expectations_text {
+        font-size: 14px;
+        display: block;
+        margin: 20px 0 0 20px;
+        text-align: justify;
+    }
+
+    .btn_push {
+        margin: auto;
+        width: 160px;
+        height: 36px;
+        background: #FFFFFF;
+        border: 2px solid #B41416;
+        text-align: center;
+        line-height: 36px;
+        cursor: pointer;
+        color: #293332;
+
+        &:hover {
+            color: white;
+            background: #B41416;
+        }
+    }
+}
+
+.vakans {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.vakans_text {
+    line-height: 1.35;   
+}
+
+.vakans_treb {
+    li {
+        &:before {
+            content: "" !important; /* Маркер */
+        }
+        padding-left: 15px;
+    }
+}

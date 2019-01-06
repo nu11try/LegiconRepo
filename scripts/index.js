@@ -1,5 +1,6 @@
 $(function(){
     var idElement = "";
+    var openNow = false;
     $(".partners_element").hover(
         function() {
             idElement = $(this).attr("id");
@@ -31,4 +32,18 @@ $(function(){
             });
         }
     );
+    $(".expectations_profile").on("click", function () {
+        idElement = $(this).attr("id");
+        if (openNow) {
+            $("span[data="+idElement+"]").css({
+                "display":"none"
+            });
+            openNow = false;
+        } else {
+            $("span[data="+idElement+"]").css({
+                "display":"block"
+            });
+            openNow = true;
+        }
+    })
 });
