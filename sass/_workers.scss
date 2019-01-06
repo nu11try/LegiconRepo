@@ -1,17 +1,25 @@
+.title_workers {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5em;
+    margin-top: 55px;
+}
+
 .workers {
     font-family: 'Roboto', sans-serif;
     margin: 50px;
-    padding: 50px;
+    padding: 0 50px 50px;
     display: flex;
     position: relative;
     justify-content: space-between;
+    flex-wrap: wrap;
 
     &_element {
         width: 189px;
         padding: 1px;
         position: relative;
         border-radius: 7px;
-
+        margin: 5px 55px 55px;
         &:hover {
             .worker_hover {
                 display: flex;
