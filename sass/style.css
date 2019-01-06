@@ -236,7 +236,7 @@ header .box .header-bottom nav ul li a.active {
   background: url("../images/partners.png") no-repeat;
   background-size: contain;
   width: 363px;
-  height: 250px;
+  height: 500px;
 }
 .partners_element .element_more {
   padding: 25px;
@@ -482,6 +482,64 @@ footer .footer_bottom .box .els-fb .el:nth-child(2) {
 .comments_element_bottom .comment_text {
   text-align: justify;
   font-size: 15px;
+}
+
+.workers {
+  font-family: "Roboto", sans-serif;
+  margin: 50px;
+  padding: 50px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+.workers_element {
+  width: 189px;
+  padding: 1px;
+  position: relative;
+  border-radius: 7px;
+}
+.workers_element:hover .worker_hover {
+  display: flex;
+  z-index: 100;
+}
+.workers_element:hover .worker_image, .workers_element:hover .worker_name, .workers_element:hover .worker_text {
+  filter: blur(1.2px);
+}
+.workers_element .worker_hover {
+  display: none;
+  border-radius: 5px;
+  position: absolute;
+  background: rgba(41, 51, 50, 0.3);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+}
+.workers_element .worker_hover span {
+  margin: auto;
+}
+.workers_element .worker_hover span a {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.workers_element .worker_image {
+  background: url("../images/worker.jpg") no-repeat;
+  background-size: contain;
+  width: 189px;
+  height: 270px;
+  border-radius: 5px 5px 0 0;
+}
+.workers_element .worker_name {
+  margin: 5px auto;
+  font-weight: 500;
+}
+.workers_element .worker_text {
+  color: #293332;
+  opacity: 0.75;
+  font-size: 12px;
+  text-align: justify;
 }
 
 /*# sourceMappingURL=style.css.map */

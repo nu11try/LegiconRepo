@@ -1,0 +1,64 @@
+.workers {
+    font-family: 'Roboto', sans-serif;
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+
+    &_element {
+        width: 189px;
+        padding: 1px;
+        position: relative;
+        border-radius: 7px;
+
+        &:hover {
+            .worker_hover {
+                display: flex;
+                z-index: 100;
+            }
+            .worker_image, .worker_name, .worker_text {
+                filter: blur(1.2px);
+            }
+        }
+
+        .worker_hover {
+            display: none;
+            border-radius: 5px;
+            position: absolute;
+            background: rgba(41, 51, 50, 0.3);
+            left:0;
+            right:0;
+            top:0;
+            bottom:0;
+            z-index: 10;
+            span {
+                margin: auto;
+                a {
+                    color: rgba(255,255,255, 1);
+                    text-align: center;
+                    font-weight: bold;
+                    
+                }
+            }
+        }
+
+        .worker_image {
+            background: url("../images/worker.jpg") no-repeat;
+            background-size: contain;
+            width: 189px;
+            height: 270px;
+            border-radius: 5px 5px 0 0;
+        }
+        .worker_name {
+            margin: 5px auto;
+            font-weight: 500;
+        }
+        .worker_text {
+            color: #293332;
+            opacity: 0.75;
+            font-size: 12px;
+            text-align: justify;
+        }
+    }
+}
