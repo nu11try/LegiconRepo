@@ -581,4 +581,55 @@ footer .footer_bottom .box .els-fb .el:nth-child(2) {
   color: #B41416;
 }
 
+.title_news {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  margin-top: 55px;
+  color: #293332;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+.news_element {
+  border: solid 1px #E6E6E6;
+  display: flex;
+  margin-bottom: 50px;
+  width: 1000px;
+}
+.news_element .news_image {
+  background: url("../images/news.jpg") no-repeat;
+  background-size: contain;
+  height: 150px;
+  width: 444px;
+}
+.news_element .news_text_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 15px;
+}
+.news_element .news_text_block .news_name span {
+  font-weight: 500;
+}
+.news_element .news_text_block .news_name span:hover a {
+  color: #B41416;
+}
+.news_element .news_text_block .news_date {
+  margin-bottom: 15px;
+}
+.news_element .news_text_block .news_date span {
+  opacity: 0.3555;
+  font-size: 13px;
+}
+.news_element .news_text_block .news_content {
+  font-size: 14px;
+  text-align: justify;
+}
+
 /*# sourceMappingURL=style.css.map */
