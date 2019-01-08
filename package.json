@@ -1,0 +1,17 @@
+{
+  "name": "legicon",
+  "version": "1.0.0",
+  "description": "Legicon",
+  "main": "/scripts/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AZStudio",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.1.0"
+  },
+  "dependencies": {}
+}
